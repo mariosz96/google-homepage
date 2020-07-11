@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8125rem;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* NAVBAR START */
+
+#nav-bar > ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+#nav-bar ul li {
+  padding-right: 1rem;
+}
+
+.nav-links {
+  color: rgb(49, 49, 49);
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+#sign-in-btn {
+  color: white;
+  background-color: #4386f8;
+  border: none;
+  font-size: 1.15rem;
+  border-radius: 0.15rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#apps-icon {
+  display: block;
+  width: 2rem;
+  height: auto;
+  filter: opacity(50%);
+}
+
+#apps-icon:hover {
+  filter: opacity(90%);
+}
+
+/* NAVBAR END */
+
+#content {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#google-logo {
+  padding-bottom: 2.5rem;
+  width: 270px;
+  height: auto;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#search-bar {
+  width: 45rem;
+  height: 3.3rem;
+  border: solid 1px rgb(228, 228, 228);
+  border-radius: 1.5625rem;
+  text-indent: 4.5rem;
+}
+
+#search-bar:hover {
+  -moz-box-shadow: 1px 3px 6px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 3px 6px -4px rgba(0, 0, 0, 0.75);
+}
+
+#mag-glass {
+  width: 1.3rem;
+  height: 1.3rem;
+  position: relative;
+  left: 3rem;
+  top: 0.3rem;
+  pointer-events: none;
+}
+
+#search-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.3rem;
+}
+
+.sbmt-btn {
+  font-weight: 300;
+  border: none;
+  padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+  margin-left: 1.5rem;
+  background-color: #f0f0f0;
+  border: 0.5px solid transparent;
+}
+
+.sbmt-btn:hover {
+  border: 0.5px solid rgb(206, 206, 206);
+  border-radius: 0.35rem;
+  text-shadow: 0 0 0.01px black;
+  -moz-box-shadow: 0px 1px 6px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 6px -3px rgba(0, 0, 0, 0.75);
+}
